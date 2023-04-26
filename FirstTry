@@ -1,0 +1,12 @@
+import pandas as pd
+import numpy as np
+#import library to get data from a html page
+
+#get data from the a html page
+#######
+
+#transform the data in a pandas dataframe
+df = pd.readCSV("#path#")
+
+#print the dataframe to check the data
+df.head()
